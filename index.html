@@ -116,18 +116,36 @@
       background-color: #7595AE;
     }
 
+   @media (min-width: 375px) and (max-width: 600px) {
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .author {
+        text-align: center;
+        margin: 0;
+        margin-top: 50px;
+      }
+    }
+
+    
     @media (max-width: 900px) {
       .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100vh;
       }
       
       .author {
-        text-align: center;
+        text-align: center;        
+        
       }
-    }
 
     
 
